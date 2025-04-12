@@ -1,0 +1,872 @@
+.product-lists-child {
+  width: 1920px;
+  height: 377px;
+  position: relative;
+  background: linear-gradient(
+    177.38deg,
+    rgba(0, 141, 218, 0.54),
+    rgba(65, 201, 226, 0.85) 28.5%
+  );
+  display: none;
+  max-width: 100%;
+}
+.sign-up-button-child,
+.sign-up-button-inner,
+.sign-up-button-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top: 5px solid var(--color-black);
+  box-sizing: border-box;
+  width: 57px;
+  height: 5px;
+  z-index: 5;
+}
+.sign-up-button-inner,
+.sign-up-button-item {
+  top: 17px;
+}
+.sign-up-button-inner {
+  top: 34px;
+}
+.sign-up-button {
+  width: 52px;
+  height: 39px;
+  position: relative;
+}
+.sign-up-button-wrapper {
+  width: 176px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-14xl) 0 0;
+  box-sizing: border-box;
+}
+.pricewisecom {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-29xl);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 6;
+}
+.maximize-your-savings {
+  text-decoration: none;
+  width: 175px;
+  position: relative;
+  text-transform: capitalize;
+  display: flex;
+  font-style: italic;
+  font-weight: 300;
+  color: inherit;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  white-space: nowrap;
+  z-index: 5;
+}
+.save-at-multiple-stores {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-3xl) var(--padding-3xl);
+  margin-top: -9px;
+  font-family: var(--font-inria-sans);
+}
+.search-bar-child {
+  height: 39px;
+  width: 328px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.price-wise-logo-link {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  z-index: 1;
+}
+.price-wise-logo-link-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1.2px 0 0;
+}
+.search-items {
+  text-decoration: none;
+  width: 153.2px;
+  position: relative;
+  text-transform: capitalize;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  white-space: nowrap;
+  z-index: 1;
+}
+.search-bar {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10.8px var(--padding-xl) 10.7px;
+  box-sizing: border-box;
+  gap: var(--gap-34xl-1);
+  max-width: 100%;
+  cursor: pointer;
+  z-index: 5;
+}
+.save-at-over {
+  margin: 0;
+}
+.save-at-over-container {
+  flex: 1;
+  position: relative;
+  text-transform: capitalize;
+  z-index: 5;
+}
+.save-at-over-100000-stores-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-46xl) 0 var(--padding-47xl);
+  color: var(--color-black);
+  font-family: var(--font-abhaya-libre-medium);
+}
+.search-bar-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  max-width: 100%;
+}
+.frame-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 58px 0 59px;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-top: -9px;
+  color: var(--color-gray-200);
+  font-family: var(--font-arial);
+}
+.pricewisecom-parent {
+  width: 445px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.sign-up {
+  text-decoration: underline;
+  align-self: stretch;
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: inherit;
+  white-space: nowrap;
+  cursor: pointer;
+  z-index: 5;
+}
+.sign-up-wrapper {
+  width: 88px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) 0 0;
+  box-sizing: border-box;
+}
+.frame-child {
+  width: 1px;
+  height: 40px;
+  position: relative;
+  border-right: 1px solid var(--color-black);
+  box-sizing: border-box;
+  z-index: 5;
+}
+.line-wrapper {
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+}
+.login-icon {
+  height: 65px;
+  width: 65px;
+  position: relative;
+  cursor: pointer;
+  z-index: 5;
+}
+.frame-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.signup-login-container {
+  width: 201px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-14xl) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-arial);
+}
+.frame-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.mask-group-icon {
+  width: 90px;
+  height: 90px;
+  position: relative;
+  object-fit: cover;
+}
+.coupons,
+.tokopedia1 {
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 82px;
+}
+.coupons {
+  min-width: 59px;
+  white-space: nowrap;
+}
+.coupons-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-2xs) 0 var(--padding-xs);
+  font-size: var(--font-size-3xs);
+}
+.tokopedia-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.store-names-row,
+.tokopedia {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.store-names-row {
+  flex-direction: row;
+  padding: 0 5px 0 var(--padding-10xs);
+}
+.tokopedia {
+  flex-direction: column;
+  gap: var(--gap-3xs);
+  cursor: pointer;
+  z-index: 1;
+}
+.mask-group-icon1,
+.shopee {
+  position: relative;
+  z-index: 1;
+}
+.mask-group-icon1 {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+}
+.shopee {
+  text-transform: capitalize;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 60px;
+}
+.icon-back-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mini);
+}
+.coupons1 {
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 58px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.coupons-container,
+.mask-group-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.coupons-container {
+  flex-direction: row;
+  padding: 0 var(--padding-mid) 0 var(--padding-mini);
+  font-size: var(--font-size-3xs);
+}
+.mask-group-parent {
+  flex-direction: column;
+  gap: var(--gap-8xs);
+}
+.lazada,
+.mask-group-icon2 {
+  position: relative;
+  z-index: 1;
+}
+.mask-group-icon2 {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+}
+.lazada {
+  text-transform: capitalize;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 57px;
+}
+.lazada-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mid) 0 16px;
+}
+.coupons2 {
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 54px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.coupons-frame,
+.mask-group-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.coupons-frame {
+  flex-direction: row;
+  padding: 0 19px 0 var(--padding-mid);
+  font-size: var(--font-size-3xs);
+}
+.mask-group-group {
+  flex-direction: column;
+  gap: var(--gap-8xs);
+}
+.mask-group-icon3,
+.zalora {
+  position: relative;
+  z-index: 1;
+}
+.mask-group-icon3 {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+}
+.zalora {
+  text-transform: capitalize;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 50px;
+}
+.zalora-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xl);
+}
+.coupons3 {
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 53px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frame-div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-mid) 0 var(--padding-xl);
+  font-size: var(--font-size-3xs);
+}
+.mask-group-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.mask-group-icon4 {
+  width: 90px;
+  height: 90px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.erafone {
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 61px;
+  z-index: 1;
+}
+.erafone-container,
+.erafone-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.erafone-wrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-mini) 0 14px;
+}
+.erafone-container {
+  flex-direction: column;
+  gap: var(--gap-6xs);
+}
+.tokopedia-parent {
+  width: 718px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.product-lists,
+.product-lists-inner,
+.tokopedia-parent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.product-lists-inner {
+  width: 1772px;
+  flex-direction: row;
+  justify-content: center;
+  color: var(--color-oldlace-100);
+  font-family: var(--font-inter);
+}
+.product-lists {
+  align-self: stretch;
+  background: linear-gradient(
+    177.38deg,
+    rgba(0, 141, 218, 0.54),
+    rgba(65, 201, 226, 0.85) 28.5%
+  );
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-38xl) var(--padding-31xl) var(--padding-3xl)
+    var(--padding-55xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  z-index: 4;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-junge);
+}
+.mengapa-harus-berbelanja,
+.pricewise-membantu-anda {
+  align-self: stretch;
+  position: relative;
+  text-transform: uppercase;
+}
+.pricewise-membantu-anda {
+  margin: 0;
+  height: 76px;
+  text-transform: capitalize;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+.shop-now-button-child {
+  height: 32px;
+  width: 113px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-cornflowerblue);
+  display: none;
+}
+.shop-now {
+  width: 81.5px;
+  position: relative;
+  font-size: var(--font-size-xs);
+  text-transform: capitalize;
+  display: flex;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.shop-now-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) 0 0;
+}
+.arrow-icon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  z-index: 1;
+}
+.price-wise-assist-in-finding-p,
+.shop-now-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.shop-now-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0 0 0 var(--padding-7xs);
+  background-color: var(--color-cornflowerblue);
+  border-radius: var(--br-xl);
+}
+.price-wise-assist-in-finding-p {
+  padding: 0 var(--padding-11xs);
+}
+.pricewise-membantu-anda-dalam-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+  max-width: 100%;
+}
+.why-buy-through-price-wise-inner {
+  width: 570px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-2xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: justify;
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+}
+.why-buy-through-price-wise,
+.why-price-wise-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.why-buy-through-price-wise {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: var(--gap-12xl);
+}
+.why-price-wise-content {
+  width: 583px;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-30xl);
+  box-sizing: border-box;
+  min-height: 229px;
+}
+.image {
+  height: 21.4px;
+  width: 84.1px;
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.mask-group-icon5 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.unsplash1nzcjdo2hkq-icon,
+.unsplashj2-waqdckus-icon {
+  position: absolute;
+  top: 0;
+  left: 241px;
+  width: 173.2px;
+  height: 175px;
+  object-fit: contain;
+  z-index: 2;
+}
+.unsplashj2-waqdckus-icon {
+  top: 47.9px;
+  left: 0;
+  width: 263.7px;
+  height: 239.7px;
+  z-index: 3;
+}
+.unsplash1nzcjdo2hkq-parent {
+  height: 287.6px;
+  width: 414.2px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -110.6px;
+  left: -114px;
+}
+.item-airpod-propng,
+.item-hydroflaskpng {
+  position: absolute;
+  overflow: hidden;
+  z-index: 2;
+}
+.item-airpod-propng {
+  top: 28px;
+  left: 1091px;
+  width: 96.1px;
+  height: 98.3px;
+  object-fit: contain;
+}
+.item-hydroflaskpng {
+  height: calc(100% - 13.3px);
+  top: 7px;
+  bottom: 6.3px;
+  left: 1253px;
+  max-height: 100%;
+  width: 117px;
+  object-fit: cover;
+}
+.input-fields-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro);
+  width: 1875px;
+  height: 14px;
+  z-index: 3;
+}
+.item-airpod-propng-parent {
+  height: 126.3px;
+  width: 1875px;
+  position: absolute;
+  margin: 0 !important;
+  top: -51px;
+  left: -1146px;
+}
+.image-parent {
+  width: 203px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-117xl-7) var(--padding-17xl) var(--padding-102xl-9);
+  box-sizing: border-box;
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-inria-serif);
+}
+.background-images,
+.why-price-wise-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.background-images {
+  width: 914px;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.why-price-wise-container {
+  width: 1822px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-junge);
+}
+.background,
+.imave-icon {
+  position: relative;
+  max-width: 100%;
+}
+.background {
+  height: 279px;
+  width: 1920px;
+  background-color: var(--color-oldlace-200);
+  display: none;
+}
+.imave-icon {
+  width: 371px;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.dengan-pricewise-uang {
+  margin: 0;
+  align-self: stretch;
+  height: 76px;
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 700;
+  white-space: pre-wrap;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.dengan-pricewise-uang-anda-ke-wrapper {
+  width: 440px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-27xl) 0 0;
+  box-sizing: border-box;
+  min-width: 440px;
+  max-width: 100%;
+}
+.article-2,
+.home-page {
+  display: flex;
+  align-items: flex-start;
+}
+.article-2 {
+  align-self: stretch;
+  background-color: var(--color-oldlace-200);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-32xl) var(--padding-494xl) var(--padding-28xl)
+    var(--padding-479xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: justify;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.home-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-25xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1850px) {
+  .imave-icon {
+    flex: 1;
+  }
+  .dengan-pricewise-uang-anda-ke-wrapper {
+    flex: 1;
+    min-width: 100%;
+  }
+  .article-2 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .article-2,
+  .product-lists {
+    padding-left: var(--padding-18xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .article-2 {
+    padding-left: var(--padding-230xl);
+    padding-right: var(--padding-237xl);
+  }
+}
+@media screen and (max-width: 925px) {
+  .why-buy-through-price-wise {
+    gap: var(--gap-mini);
+  }
+  .background-images {
+    flex-wrap: wrap;
+  }
+  .article-2 {
+    padding-left: var(--padding-105xl);
+    padding-right: var(--padding-109xl);
+    box-sizing: border-box;
+  }
+  .home-page {
+    gap: var(--gap-3xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .search-bar {
+    gap: var(--gap-8xl);
+  }
+  .frame-wrapper,
+  .save-at-over-100000-stores-wrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .product-lists {
+    padding-top: var(--padding-18xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .mengapa-harus-berbelanja {
+    font-size: var(--font-size-base);
+  }
+}
